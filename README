@@ -1,0 +1,23 @@
+Hangman
+
+Author: Alexander Bix
+Programming Language: C++
+Operating System: Linux
+
+Contents:
+	-singleplayer.cpp: Singplayer mode code
+	-multiplayer.cpp: Multiplayer mode code
+	-makefile: Used fo compile files
+	-dictionary.txt: List of words used for the singleplayer mode.
+		-Dictionary File was obtained from: http://www.gwicks.net/dictionaries.htm
+			    -512kb English File was used
+	-README: This file
+
+Running:
+	-Go to the directory of the contents of the file and use the 'make' command in terminal.
+	-If you are playing by yourself, execute the singplayer program with './singleplayer' in terminal
+	-If you are playing with another person, execute the multiplayer program with './multiplayer' in
+	terminal.
+
+Limitations:
+	-For multiplayer, multi-word phrases are not supported. 
